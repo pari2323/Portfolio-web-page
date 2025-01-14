@@ -1,0 +1,197 @@
+/* .mainwrapper{
+    width: 100%;
+    box-sizing: border-box;
+} */
+.topdiv{
+    display: flex;
+    width:100%;
+    /* gap:50px; */
+    justify-content: space-between;
+    background-color:purple;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+            
+}
+.profileName{
+    padding-left: 10px;
+}
+
+.topmenu{
+    display: flex;
+    gap:60px;
+    padding-top:20px;
+    padding-right: 10px;
+
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+.topmenu button{
+    background-color: transparent;
+    border-radius: 23px;
+    color:white;
+    border:transparent;
+    font-size: medium;font-weight: bolder;
+}
+.topmenu button:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+.container-about{
+
+    width: 100%;
+    display: flex;
+    gap:40px;
+    padding-top: 40px;
+}
+.container-about-image{
+    margin: 30px 150px;
+    text-align: center;    
+}
+.container-about-text {
+    padding-top: 80px;
+    text-align: justify;
+}
+
+#heading-about-text{
+    color: purple;
+    font-size: 45px;
+}
+
+#para-about-text {
+    font-size : 20px;
+    text-align: justify;
+  padding-right: 30px;
+}
+.skills{
+    display: flex;
+    width:100px;
+    padding-left:100px;
+}
+#heading-skills{
+    font-size: 35px;
+    color:purple;
+}
+.skills-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    padding-left:100px;   
+    padding-right:30px;
+    gap:40px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-skills{
+    width: 200px;
+    border:2px solid grey;
+    text-align:center;
+    font-size: larger;
+
+   
+    padding:20px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 3px 1px grey;
+    
+}
+.container-projects{
+    padding-left: 100px;
+}
+.li-elements{
+    font-size: 20px;
+    padding-left:50px;
+}
+#aside{
+    padding-left: 33px;
+    color:purple;
+    font-size: 20px;
+    font-weight:bolder;
+    text-decoration: underline;
+}
+
+.container-rec{
+    padding-left: 100px;
+ 
+    
+}
+.contianer-rec-text{
+    width: 350px;
+    height: 340px;
+    border:1px solid gray;
+    border-radius: 12px;
+    text-align: justify;
+    overflow-y: hidden;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+.contianer-rec-textUserAdded{
+    width: 350px;
+    height: 200PX;
+    border:1px solid gray;
+    border-radius: 12px;
+    text-align: justify;
+    overflow-y: hidden;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+.container-feedback-ul{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    list-style-type:none;
+}
+.rec-para-text{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#container-feedback-name{
+    width:700px;
+    
+
+}
+#container-feedback-message {
+
+    width:700px;
+    height:200px;
+}
+.container-feeback{
+    left:40%;
+    position:absolute;
+}
+#btn {
+    left:30%;
+    position: absolute;
+    font-size:18px;
+    padding:5px 40px;
+    border-radius: 6px;
+    color: purple;
+    border:1px solid purple;
+    background-color: transparent;
+}
+
+#icon{
+    position:absolute;
+    right:0px;
+}
+.popupStyle {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    vertical-align: center;
+    width: auto;
+    height:auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:lightseagreen;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 9999; /* Ensure the popup is on top */
+}
